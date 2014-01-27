@@ -1,0 +1,46 @@
+#content{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	margin:0 auto;		
+}
+.amcharts {
+	display: inline;
+	float: left;
+	width: 1000px;
+	margin:0 auto; 
+	height: 100%;
+}
+#swiper {
+	width:100%;
+	height:50px;
+	background:rgba(0,0,0,0.3);
+}
+.swiper-wrapper 
+			{
+				float:left;
+				display:inline;
+				
+				-webkit-transition-property: -webkit-transform;
+				-webkit-transition-duration: 0.5s;
+				-webkit-transition-timing-function: ease-out;
+				padding:0px;
+				margin:0px;
+				
+				width:2000px;
+				
+				/*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+				-webkit-transform: translate3d(0px,0px,0px); 
+			}
+.swiper-slide {
+	display: inline;
+				padding:0px;
+				margin:0px;
+				
+				
+				width:500px;
+				height:362px;
+				
+				/*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+				-webkit-transform: translate3d(0px,0px,0px); 
+}
